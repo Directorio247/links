@@ -29,23 +29,23 @@
   color: #fff;
 }
 
-.img-top, .rounde-circle {
-  border: solid 3px #ffdf2d;
-  border-radius: 50%; 
-}
-
 .img-top {
   width: 100px;
   height: 100px;
+  border: solid 3px #ffdf2d;
+  *border-radius: 50%; 
 }
 
 .figure-caption {
+  font-size: 27px;
   color: #fff;
+  
 }
 
 .rounde-circle {
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%; 
 }
 
 .btn {
